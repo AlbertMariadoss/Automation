@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-21T09:02:30 IST" name="Default suite" finished-at="2022-02-21T09:02:30 IST" duration-ms="227">
+  <suite started-at="2022-02-22T09:55:12 IST" name="Default suite" finished-at="2022-02-22T09:55:24 IST" duration-ms="11648">
     <groups>
     </groups>
-    <test started-at="2022-02-21T09:02:30 IST" name="Default test" finished-at="2022-02-21T09:02:30 IST" duration-ms="227">
+    <test started-at="2022-02-22T09:55:12 IST" name="Default test" finished-at="2022-02-22T09:55:24 IST" duration-ms="11648">
       <class name="testleafmain.basictc">
-        <test-method signature="browserinstall()[pri:0, instance:testleafmain.basictc@17497425]" started-at="2022-02-21T09:02:30 IST" name="browserinstall" finished-at="2022-02-21T09:02:30 IST" duration-ms="110" status="FAIL">
-          <exception class="java.lang.IllegalStateException">
+        <test-method signature="browserinstall()[pri:0, instance:testleafmain.basictc@33bc72d1]" started-at="2022-02-22T09:55:13 IST" name="browserinstall" finished-at="2022-02-22T09:55:24 IST" duration-ms="11535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinstall -->
+        <test-method signature="hyberlink()[pri:0, instance:testleafmain.basictc@33bc72d1]" started-at="2022-02-22T09:55:24 IST" name="hyberlink" finished-at="2022-02-22T09:55:24 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[The driver executable must exist: C:\Users\ALBERT\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.2\selenium-chrome-driver-4.1.2]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\Users\ALBERT\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.2\selenium-chrome-driver-4.1.2
-at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
-at testleaf.Base.initializedriver(Base.java:25)
-at testleafmain.basictc.browserinstall(basictc.java:13)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
+at testleafmain.basictc.hyberlink(basictc.java:27)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,10 +52,10 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserinstall -->
+        </test-method> <!-- hyberlink -->
       </class> <!-- testleafmain.basictc -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

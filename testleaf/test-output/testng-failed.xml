@@ -5,7 +5,7 @@
     <classes>
       <class name="testleafmain.basictc">
         <methods>
-          <include name="browserinstall"/>
+          <include name="hyberlink"/>
         </methods>
       </class> <!-- testleafmain.basictc -->
     </classes>
