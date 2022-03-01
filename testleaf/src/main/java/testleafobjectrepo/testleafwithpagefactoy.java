@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class testleafwithpagefactoy {
 
-	public  WebDriver driver;
+	public WebDriver driver;
 
 	public testleafwithpagefactoy(WebDriver driver) {
 		this.driver = driver;
@@ -19,6 +19,12 @@ public class testleafwithpagefactoy {
 	WebElement hyberlink;
 	@FindBy(xpath = "//*[@id=\"contentblock\"]/section/div[1]/div/div/a")
 	WebElement clickme;
+	@FindBy(xpath = "//a[contains(text(),'Find where am supposed to go without clicking me?')]")
+	WebElement withoutclick;
+	@FindBy(xpath = "//a[contains(text(),'Verify am I broken?')]")
+	WebElement broken;
+	@FindBy(xpath = "//body/div[@id='wrapper']/div[1]/div[3]/section[1]/div[4]/div[1]/div[1]/a[1]")
+	WebElement home;
 
 	public WebElement hyberlink() {
 		return hyberlink;
@@ -26,6 +32,18 @@ public class testleafwithpagefactoy {
 
 	public WebElement clickme() {
 		return clickme;
+	}
+
+	public WebElement withoutclick() {
+		return withoutclick;
+	}
+
+	public WebElement broken() {
+		return broken;
+	}
+
+	public WebElement home() {
+		return home;
 	}
 
 }

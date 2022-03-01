@@ -9,14 +9,12 @@ import testleaf.Base;
 import testleafobjectrepo.testleafwithpagefactoy;
 
 public class basictc extends Base {
-	public static WebDriver driver;
-
-	 testleafwithpagefactoy wpf = new testleafwithpagefactoy(driver);
+	public WebDriver driver;
+	public testleafwithpagefactoy wpf;
 
 	@Test
 	public void browserinstall() throws IOException {
 		driver = initializedriver();
-
 		driver.get(baseurl);
 		driver.manage().window().maximize();
 
@@ -24,8 +22,15 @@ public class basictc extends Base {
 
 	@Test
 	public void hyberlink() {
+		wpf = new testleafwithpagefactoy(driver);
 		wpf.hyberlink().click();
 		wpf.clickme().click();
+		driver.navigate().back();
+		String link = wpf.withoutclick().getAttribute("href");
+		System.out.println("withoutclick" + link);
+		String broken = wpf.broken().getAttribute("href");
+		System.out.println("Broken url" + broken);
+		wpf.home().click();
 
 	}
 
