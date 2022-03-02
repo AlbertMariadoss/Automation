@@ -25,6 +25,14 @@ public class testleafwithpagefactoy {
 	WebElement broken;
 	@FindBy(xpath = "//body/div[@id='wrapper']/div[1]/div[3]/section[1]/div[4]/div[1]/div[1]/a[1]")
 	WebElement home;
+	@FindBy(xpath = "//body/div[@id='wrapper']/div[1]/div[3]/section[1]/div[1]/div[1]/div[1]/img[1]")
+	WebElement homeimage;
+	@FindBy(xpath = "//body/div[@id='wrapper']/div[1]/div[3]/section[1]/div[2]/div[1]/div[1]/img[1]")
+	WebElement brokenimage;
+	@FindBy(xpath = "//h5[contains(text(),'Image')]")
+	WebElement image;
+	@FindBy(xpath = "//body/div[@id='wrapper']/div[1]/div[3]/section[1]/div[3]/div[1]/div[1]/img[1]")
+	WebElement mouseorkey;
 
 	public WebElement hyberlink() {
 		return hyberlink;
@@ -44,6 +52,22 @@ public class testleafwithpagefactoy {
 
 	public WebElement home() {
 		return home;
+	}
+
+	public WebElement homeimage() {
+		return homeimage;
+	}
+
+	public WebElement brokenimage() {
+		return brokenimage;
+	}
+
+	public WebElement image() {
+		return image;
+	}
+
+	public WebElement mouseorkey() {
+		return mouseorkey;
 	}
 
 }
