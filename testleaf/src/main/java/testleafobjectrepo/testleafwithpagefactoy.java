@@ -1,5 +1,7 @@
 package testleafobjectrepo;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,7 +16,6 @@ public class testleafwithpagefactoy {
 		PageFactory.initElements(driver, this);
 
 	}
-	//fgh
 
 	@FindBy(xpath = "//*[@id=\"post-153\"]/div[2]/div/ul/li[3]/a/h5")
 	WebElement hyberlink;
@@ -34,6 +35,16 @@ public class testleafwithpagefactoy {
 	WebElement image;
 	@FindBy(xpath = "//body/div[@id='wrapper']/div[1]/div[3]/section[1]/div[3]/div[1]/div[1]/img[1]")
 	WebElement mouseorkey;
+	@FindBy(xpath="//*[@id=\"text-2\"]/a/img")
+	WebElement testleaflogo;
+	@FindBy(id="no")
+	WebElement no;
+	@FindBy(name="news")
+	List<WebElement> isselect;
+	@FindBy(xpath="//*[@id=\"post-153\"]/div[2]/div/ul/li[6]/a/h5")
+	WebElement radio;
+	@FindBy(xpath="//*[@id=\"contentblock\"]/section/div[3]/div/div/input[1]")
+	WebElement wascheck;
 
 	public WebElement hyberlink() {
 		return hyberlink;
@@ -70,5 +81,19 @@ public class testleafwithpagefactoy {
 	public WebElement mouseorkey() {
 		return mouseorkey;
 	}
-
+	public WebElement testleaflogo() {
+		return testleaflogo;
+	}
+	public WebElement No() {
+		return no;
+	}
+	public List<WebElement> isselect() {
+		return isselect;
+	}
+	public  WebElement radio() {
+		return radio;
+	}
+	public  WebElement wascheck() {
+		return wascheck;
+	}
 }

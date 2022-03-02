@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ALBERT\AppData\Local\Temp\testng-eclipse--1421729995\testng-customsuite.xml</span>
+                    <span>testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,12 +109,27 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testleafmain.basictc" class="method navigator-link" hash-for-method="checkbox">checkbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testleafmain.basictc" class="method navigator-link" hash-for-method="dropdown">dropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testleafmain.basictc" class="method navigator-link" hash-for-method="hyberlink">hyberlink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testleafmain.basictc" class="method navigator-link" hash-for-method="image">image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testleafmain.basictc" class="method navigator-link" hash-for-method="radiobutton">radiobutton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -144,6 +159,20 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="checkbox">
+                  </a> <!-- checkbox -->
+                  <span class="method-name">checkbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdown">
+                  </a> <!-- dropdown -->
+                  <span class="method-name">dropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="hyberlink">
                   </a> <!-- hyberlink -->
                   <span class="method-name">hyberlink</span>
@@ -156,12 +185,19 @@
                   <span class="method-name">image</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="radiobutton">
+                  </a> <!-- radiobutton -->
+                  <span class="method-name">radiobutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ALBERT\AppData\Local\Temp\testng-eclipse--1421729995\testng-customsuite.xml</span>
+            <span class="header-content">/tmp/testng-eclipse--518236718/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -210,24 +246,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'browserinstall')
 data.setCell(0, 2, 'testleafmain.basictc')
-data.setCell(0, 3, 27495);
+data.setCell(0, 3, 3911);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'hyberlink')
+data.setCell(1, 1, 'image')
 data.setCell(1, 2, 'testleafmain.basictc')
-data.setCell(1, 3, 4189);
+data.setCell(1, 3, 1075);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'image')
+data.setCell(2, 1, 'dropdown')
 data.setCell(2, 2, 'testleafmain.basictc')
-data.setCell(2, 3, 3015);
+data.setCell(2, 3, 553);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'hyberlink')
+data.setCell(3, 2, 'testleafmain.basictc')
+data.setCell(3, 3, 505);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'radiobutton')
+data.setCell(4, 2, 'testleafmain.basictc')
+data.setCell(4, 3, 287);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkbox')
+data.setCell(5, 2, 'testleafmain.basictc')
+data.setCell(5, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -260,11 +308,23 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">hyberlink</span>
-                <span class="method-start">27510 ms</span>
+                <span class="method-start">3914 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">image</span>
-                <span class="method-start">31728 ms</span>
+                <span class="method-start">4422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dropdown</span>
+                <span class="method-start">5499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">radiobutton</span>
+                <span class="method-start">6053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkbox</span>
+                <span class="method-start">6341 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
