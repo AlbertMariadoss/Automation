@@ -1,5 +1,7 @@
 package testleafobjectrepo;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,10 +17,15 @@ public class testleafwithoutrepo {
 	By dropdown = By.xpath("//h5[contains(text(),'Drop down')]");
 	By indexdrop = By.xpath("//*[@id=\"dropdown1\"]");
 	By textdrop = By.xpath("//*[@id=\"contentblock\"]/section/div[2]/select");
-	By valuedrop=By.xpath("//*[@id=\"dropdown3\"]");
+	By valuedrop = By.xpath("//*[@id=\"dropdown3\"]");
 	By numberdrop = By.xpath("//*[@id=\"contentblock\"]/section/div[4]/select");
 	By selectdrop = By.xpath("//*[@id=\"contentblock\"]/section/div[5]/select");
 	By dropselect = By.xpath("//*[@id=\"contentblock\"]/section/div[6]/select/option[2]");
+	By checkboxfirst = By.xpath("//*[@id=\"contentblock\"]/section/div[1]");
+	By selectornot = By.xpath("//*[@id=\"contentblock\"]/section/div[2]/div/input");
+	By deselect = By.xpath("//*[@id=\"contentblock\"]/section/div[3]");
+	By selectall = By.xpath("//*[@id=\"contentblock\"]/section/div[4]");
+	By checkbox=By.xpath("//*[@id=\"post-153\"]/div[2]/div/ul/li[7]/a/h5");
 
 	public WebElement dropdown() {
 		return driver.findElement(dropdown);
@@ -43,8 +50,28 @@ public class testleafwithoutrepo {
 	public WebElement dropselect() {
 		return driver.findElement(dropselect);
 	}
+
 	public WebElement valuedrop() {
 		return driver.findElement(valuedrop);
+	}
+
+	public List<WebElement> checkboxfirst() {
+		return driver.findElements(checkboxfirst);
+	}
+
+	public WebElement selectornot() {
+		return driver.findElement(selectornot);
+	}
+
+	public List<WebElement> deselect() {
+		return driver.findElements(selectall);
+	}
+
+	public List<WebElement> selectall() {
+		return driver.findElements(selectall);
+	}
+	public WebElement checkbox() {
+		return driver.findElement(checkbox);
 	}
 
 }

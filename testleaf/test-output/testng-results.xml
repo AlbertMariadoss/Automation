@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-02T20:26:57 IST" name="Default suite" finished-at="2022-03-02T20:27:03 IST" duration-ms="6367">
+  <suite started-at="2022-03-03T20:43:05 IST" name="Default suite" finished-at="2022-03-03T20:43:11 IST" duration-ms="6411">
     <groups>
     </groups>
-    <test started-at="2022-03-02T20:26:57 IST" name="Default test" finished-at="2022-03-02T20:27:03 IST" duration-ms="6367">
+    <test started-at="2022-03-03T20:43:05 IST" name="Default test" finished-at="2022-03-03T20:43:11 IST" duration-ms="6411">
       <class name="testleafmain.basictc">
-        <test-method signature="browserinstall()[pri:0, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-02T20:26:57 IST" name="browserinstall" finished-at="2022-03-02T20:27:01 IST" duration-ms="3911" status="PASS">
+        <test-method signature="browserinstall()[pri:0, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-03T20:43:05 IST" name="browserinstall" finished-at="2022-03-03T20:43:09 IST" duration-ms="3842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserinstall -->
-        <test-method signature="hyberlink()[pri:0, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-02T20:27:01 IST" name="hyberlink" finished-at="2022-03-02T20:27:01 IST" duration-ms="505" status="PASS">
+        <test-method signature="hyberlink()[pri:0, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-03T20:43:09 IST" name="hyberlink" finished-at="2022-03-03T20:43:09 IST" duration-ms="548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hyberlink -->
-        <test-method signature="image()[pri:0, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-02T20:27:01 IST" name="image" finished-at="2022-03-02T20:27:02 IST" duration-ms="1075" status="PASS">
+        <test-method signature="image()[pri:0, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-03T20:43:09 IST" name="image" finished-at="2022-03-03T20:43:10 IST" duration-ms="970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- image -->
-        <test-method signature="dropdown()[pri:4, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-02T20:27:02 IST" name="dropdown" finished-at="2022-03-02T20:27:03 IST" duration-ms="553" status="PASS">
+        <test-method signature="dropdown()[pri:4, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-03T20:43:10 IST" name="dropdown" finished-at="2022-03-03T20:43:11 IST" duration-ms="571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropdown -->
-        <test-method signature="radiobutton()[pri:5, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-02T20:27:03 IST" name="radiobutton" finished-at="2022-03-02T20:27:03 IST" duration-ms="287" status="PASS">
+        <test-method signature="radiobutton()[pri:5, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-03T20:43:11 IST" name="radiobutton" finished-at="2022-03-03T20:43:11 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radiobutton -->
-        <test-method signature="checkbox()[pri:6, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-02T20:27:03 IST" name="checkbox" finished-at="2022-03-02T20:27:03 IST" duration-ms="1" status="PASS">
+        <test-method signature="checkbox()[pri:6, instance:testleafmain.basictc@6fd83fc1]" started-at="2022-03-03T20:43:11 IST" name="checkbox" finished-at="2022-03-03T20:43:11 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkbox -->

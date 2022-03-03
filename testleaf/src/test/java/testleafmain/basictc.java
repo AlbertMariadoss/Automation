@@ -94,6 +94,18 @@ public class basictc extends Base {
 
 	@Test(priority = 6)
 	public void checkbox() {
+		wopf.checkbox().click();
+		List<WebElement> check = wopf.checkboxfirst();
+		for (WebElement co : check) {
+			String colle = co.getText();
+			StringBuffer wer = new StringBuffer(colle);
+
+			if (wer.equals("SQL") || wer.equals("Java") || wer.equals("C")) {
+				
+
+			}
+
+		}
 
 	}
 
