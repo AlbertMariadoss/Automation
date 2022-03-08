@@ -23,8 +23,8 @@ public class testleafwithoutrepo {
 	By dropselect = By.xpath("//*[@id=\"contentblock\"]/section/div[6]/select/option[2]");
 	By checkboxfirst = By.xpath("//*[@id=\"contentblock\"]/section/div[1]");
 	By selectornot = By.xpath("//*[@id=\"contentblock\"]/section/div[2]/div/input");
-	By deselect = By.xpath("//*[@id=\"contentblock\"]/section/div[3]");
-	By selectall = By.xpath("//*[@id=\"contentblock\"]/section/div[4]");
+	By deselect = By.xpath("//*[@id=\"contentblock\"]/section/div[3]/div/input");
+	By selectall = By.xpath("//*[@id=\"contentblock\"]/section/div[4]/div/*");
 	By checkbox=By.xpath("//*[@id=\"post-153\"]/div[2]/div/ul/li[7]/a/h5");
 
 	public WebElement dropdown() {
@@ -64,7 +64,7 @@ public class testleafwithoutrepo {
 	}
 
 	public List<WebElement> deselect() {
-		return driver.findElements(selectall);
+		return driver.findElements(deselect);
 	}
 
 	public List<WebElement> selectall() {

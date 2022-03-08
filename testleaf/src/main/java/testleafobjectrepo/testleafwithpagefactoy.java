@@ -45,6 +45,12 @@ public class testleafwithpagefactoy {
 	WebElement radio;
 	@FindBy(xpath="//*[@id=\"contentblock\"]/section/div[3]/div/div/input[1]")
 	WebElement wascheck;
+	@FindBy(xpath="//*[@id=\"table_id\"]/tbody/tr[1]/th")
+	List<WebElement> coloumcount;
+	@FindBy(xpath="//*[@id=\"post-153\"]/div[2]/div/ul/li[8]/a/h5")
+	WebElement table;
+	@FindBy(xpath="//*[@id=\"table_id\"]/tbody/tr")
+	List<WebElement> rowcount;
 
 	public WebElement hyberlink() {
 		return hyberlink;
@@ -96,4 +102,14 @@ public class testleafwithpagefactoy {
 	public  WebElement wascheck() {
 		return wascheck;
 	}
+	public List<WebElement> coloumcount() {
+		return coloumcount;
+	}
+	public  WebElement table() {
+		return table;
+	}
+	public List<WebElement> rowcount() {
+		return rowcount;
+	}
+	
 }

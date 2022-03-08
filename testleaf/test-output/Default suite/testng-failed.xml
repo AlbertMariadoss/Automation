@@ -5,7 +5,7 @@
     <classes>
       <class name="testleafmain.basictc">
         <methods>
-          <include name="radiobutton"/>
+          <include name="table"/>
         </methods>
       </class> <!-- testleafmain.basictc -->
     </classes>

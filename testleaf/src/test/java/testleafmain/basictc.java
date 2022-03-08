@@ -97,14 +97,31 @@ public class basictc extends Base {
 		wopf.checkbox().click();
 		List<WebElement> check = wopf.checkboxfirst();
 		for (WebElement co : check) {
-			String colle = co.getText();
-			StringBuffer wer = new StringBuffer(colle);
+			System.out.println(co);
+		}
+		System.out.println(wopf.selectornot().isSelected());
 
-			if (wer.equals("SQL") || wer.equals("Java") || wer.equals("C")) {
-				
-
+		for (WebElement cp : wopf.deselect()) {
+			if (!cp.isSelected()) {
+				cp.click();
 			}
 
+		}
+		for (WebElement allsho : wopf.selectall()) {
+			allsho.click();
+
+		}
+		driver.navigate().back();
+	}
+
+	@Test(priority = 7)
+	public void table() {
+		wpf.table().click();
+		System.out.println(wpf.coloumcount().size());
+		System.out.println(wpf.rowcount().size());
+		for (WebElement counts:wpf.rowcount()) {
+			counts.getText();
+			
 		}
 
 	}
