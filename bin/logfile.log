@@ -1,0 +1,115 @@
+2022-03-20 21:27:02,563 INFO  [basictc] Browser lunch start 
+2022-03-20 21:27:07,988 INFO  [WebDriverManager] Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99) 
+2022-03-20 21:27:08,074 INFO  [WebDriverManager] Exporting webdriver.chrome.driver as C:\Users\ALBERT\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe 
+2022-03-20 21:27:46,759 INFO  [basictc] Browser Lunched Sucessfully 
+2022-03-20 21:27:49,924 INFO  [basictc] Broken Urlhttp://www.leafground.com/pages/error.html 
+2022-03-20 21:27:51,654 INFO  [basictc] http://www.leafground.com/images/home.png 
+2022-03-20 21:27:51,775 INFO  [basictc] http://www.leafground.com/images/abcd.jpg 
+2022-03-20 21:27:56,105 INFO  [basictc] 5 
+2022-03-20 21:28:01,976 INFO  [basictc] 6 
+2022-03-20 21:28:02,121 INFO  [basictc] 5 
+2022-03-20 21:28:02,658 INFO  [Utils] [TestNG] Time taken by org.testng.internal.ExitCodeListener@2233cac0: 0 ms 
+2022-03-20 21:28:02,768 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5c059a68: 110 ms 
+2022-03-20 21:28:03,238 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.jq.Main@733e6df7: 469 ms 
+2022-03-20 21:28:03,238 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.FailedReporter@7fe07361: 0 ms 
+2022-03-20 21:28:03,291 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.XMLReporter@79a201cf: 17 ms 
+2022-03-20 21:28:03,322 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4b87074a: 30 ms 
+2022-03-20 21:28:03,330 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5b35c7d: 8 ms 
+2022-03-22 08:40:32,645 INFO  [basictc] Browser lunch start 
+2022-03-22 08:41:39,050 INFO  [WebDriverManager] Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99) 
+2022-03-22 08:41:40,042 INFO  [WebDriverManager] Exporting webdriver.chrome.driver as C:\Users\ALBERT\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe 
+2022-03-22 08:44:31,714 INFO  [basictc] Browser lunch start 
+2022-03-22 08:44:32,803 INFO  [WebDriverManager] Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99) 
+2022-03-22 08:44:33,044 INFO  [WebDriverManager] Exporting webdriver.chrome.driver as C:\Users\ALBERT\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe 
+2022-03-22 08:45:28,216 INFO  [basictc] Browser Lunched Sucessfully 
+2022-03-22 08:45:30,353 INFO  [basictc] Broken Urlhttp://www.leafground.com/pages/error.html 
+2022-03-22 08:45:32,102 INFO  [basictc] http://www.leafground.com/images/home.png 
+2022-03-22 08:45:32,159 INFO  [basictc] http://www.leafground.com/images/abcd.jpg 
+2022-03-22 08:45:35,813 INFO  [basictc] 5 
+2022-03-22 08:45:40,449 INFO  [basictc] 6 
+2022-03-22 08:45:40,471 INFO  [basictc] 5 
+2022-03-22 08:45:41,026 INFO  [Utils] [TestNG] Time taken by org.testng.internal.ExitCodeListener@484149eb: 0 ms 
+2022-03-22 08:45:41,287 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@3b2e5c0d: 260 ms 
+2022-03-22 08:45:41,968 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.jq.Main@51f95f0d: 681 ms 
+2022-03-22 08:45:41,969 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.FailedReporter@6fc0bbc6: 0 ms 
+2022-03-22 08:45:41,978 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.XMLReporter@6bbab114: 9 ms 
+2022-03-22 08:45:42,002 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5d152bcd: 24 ms 
+2022-03-22 08:45:42,032 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3a36cd5: 30 ms 
+2022-03-23 08:42:02,589 INFO  [basictc] Browser lunch start 
+2022-03-23 08:42:13,242 INFO  [WebDriverManager] Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99) 
+2022-03-23 08:42:13,670 INFO  [WebDriverManager] Exporting webdriver.chrome.driver as C:\Users\ALBERT\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe 
+2022-03-23 08:42:52,536 INFO  [basictc] Browser Lunched Sucessfully 
+2022-03-23 08:42:57,041 INFO  [basictc] Broken Urlhttp://www.leafground.com/pages/error.html 
+2022-03-23 08:42:59,436 INFO  [basictc] http://www.leafground.com/images/home.png 
+2022-03-23 08:42:59,523 INFO  [basictc] http://www.leafground.com/images/abcd.jpg 
+2022-03-23 08:43:03,718 INFO  [basictc] 5 
+2022-03-23 08:43:09,657 INFO  [basictc] 6 
+2022-03-23 08:43:09,686 INFO  [basictc] 5 
+2022-03-23 08:43:10,830 INFO  [Utils] [TestNG] Time taken by org.testng.internal.ExitCodeListener@31723307: 1 ms 
+2022-03-23 08:43:11,117 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@23cd5d42: 286 ms 
+2022-03-23 08:43:11,436 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.jq.Main@4b87074a: 318 ms 
+2022-03-23 08:43:11,436 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.FailedReporter@d3e3085: 0 ms 
+2022-03-23 08:43:11,446 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.XMLReporter@5b35c7d: 10 ms 
+2022-03-23 08:43:11,573 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@7455dacb: 127 ms 
+2022-03-23 08:43:11,590 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@681c0ae6: 17 ms 
+2022-03-23 08:53:00,182 INFO  [basictc] Browser lunch start 
+2022-03-23 08:53:01,294 INFO  [WebDriverManager] Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99) 
+2022-03-23 08:53:01,397 INFO  [WebDriverManager] Exporting webdriver.chrome.driver as C:\Users\ALBERT\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe 
+2022-03-23 08:53:15,124 INFO  [basictc] Browser Lunched Sucessfully 
+2022-03-23 08:53:16,605 INFO  [basictc] Broken Urlhttp://www.leafground.com/pages/error.html 
+2022-03-23 08:53:18,483 INFO  [basictc] http://www.leafground.com/images/home.png 
+2022-03-23 08:53:18,596 INFO  [basictc] http://www.leafground.com/images/abcd.jpg 
+2022-03-23 08:53:20,767 INFO  [basictc] 5 
+2022-03-23 08:53:26,659 INFO  [basictc] 6 
+2022-03-23 08:53:26,678 INFO  [basictc] 5 
+2022-03-23 08:53:26,933 INFO  [Utils] [TestNG] Time taken by org.testng.internal.ExitCodeListener@3b7c80c6: 0 ms 
+2022-03-23 08:53:27,097 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2ffe243f: 163 ms 
+2022-03-23 08:53:27,206 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.jq.Main@77429040: 107 ms 
+2022-03-23 08:53:27,207 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.FailedReporter@2d2b6960: 0 ms 
+2022-03-23 08:53:27,223 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.XMLReporter@7e3d7dd: 16 ms 
+2022-03-23 08:53:27,237 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@180b3819: 14 ms 
+2022-03-23 08:53:27,246 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@707ca986: 7 ms 
+2022-03-23 08:57:30,832 INFO  [basictc] Browser lunch start 
+2022-03-23 08:57:31,840 INFO  [WebDriverManager] Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99) 
+2022-03-23 08:57:31,911 INFO  [WebDriverManager] Exporting webdriver.chrome.driver as C:\Users\ALBERT\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe 
+2022-03-23 08:57:44,411 INFO  [Utils] [TestNG] Time taken by org.testng.internal.ExitCodeListener@64920dc2: 0 ms 
+2022-03-23 08:57:44,492 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@30839e44: 79 ms 
+2022-03-23 08:57:44,691 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.jq.Main@5f5effb0: 199 ms 
+2022-03-23 08:57:44,744 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.FailedReporter@16a5eb6d: 53 ms 
+2022-03-23 08:57:44,807 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.XMLReporter@3f362135: 62 ms 
+2022-03-23 08:57:44,838 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2e7157c7: 31 ms 
+2022-03-23 08:57:44,866 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@40d60f2: 28 ms 
+2022-03-23 09:02:03,025 INFO  [basictc] Browser lunch start 
+2022-03-23 09:02:04,046 INFO  [WebDriverManager] Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99) 
+2022-03-23 09:02:04,112 INFO  [WebDriverManager] Exporting webdriver.chrome.driver as C:\Users\ALBERT\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe 
+2022-03-23 09:02:29,443 INFO  [basictc] Browser Lunched Sucessfully 
+2022-03-23 09:02:36,730 INFO  [basictc] Broken Urlhttp://www.leafground.com/pages/error.html 
+2022-03-23 09:02:43,365 INFO  [basictc] http://www.leafground.com/images/home.png 
+2022-03-23 09:02:43,485 INFO  [basictc] http://www.leafground.com/images/abcd.jpg 
+2022-03-23 09:02:46,797 INFO  [basictc] 5 
+2022-03-23 09:02:51,805 INFO  [basictc] 6 
+2022-03-23 09:02:51,827 INFO  [basictc] 5 
+2022-03-23 09:02:52,092 INFO  [Utils] [TestNG] Time taken by org.testng.internal.ExitCodeListener@28e0e464: 0 ms 
+2022-03-23 09:02:52,256 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@1de4285e: 164 ms 
+2022-03-23 09:02:52,465 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.jq.Main@2a7d9b41: 207 ms 
+2022-03-23 09:02:52,465 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.FailedReporter@25be445f: 0 ms 
+2022-03-23 09:02:52,475 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.XMLReporter@2d2b6960: 10 ms 
+2022-03-23 09:02:52,483 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@53f0d09c: 8 ms 
+2022-03-23 09:02:52,490 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@733c464f: 6 ms 
+2022-03-23 09:05:28,497 INFO  [basictc] Browser lunch start 
+2022-03-23 09:05:29,676 INFO  [WebDriverManager] Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99) 
+2022-03-23 09:05:29,755 INFO  [WebDriverManager] Exporting webdriver.chrome.driver as C:\Users\ALBERT\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe 
+2022-03-23 09:05:40,731 INFO  [basictc] Browser Lunched Sucessfully 
+2022-03-23 09:05:41,984 INFO  [basictc] Broken Urlhttp://www.leafground.com/pages/error.html 
+2022-03-23 09:05:43,067 INFO  [basictc] http://www.leafground.com/images/home.png 
+2022-03-23 09:05:43,164 INFO  [basictc] http://www.leafground.com/images/abcd.jpg 
+2022-03-23 09:05:45,141 INFO  [basictc] 5 
+2022-03-23 09:05:48,139 INFO  [basictc] 6 
+2022-03-23 09:05:48,165 INFO  [basictc] 5 
+2022-03-23 09:05:48,430 INFO  [Utils] [TestNG] Time taken by org.testng.internal.ExitCodeListener@3b7c80c6: 0 ms 
+2022-03-23 09:05:48,502 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2ffe243f: 72 ms 
+2022-03-23 09:05:48,726 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.jq.Main@77429040: 224 ms 
+2022-03-23 09:05:48,726 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.FailedReporter@2d2b6960: 0 ms 
+2022-03-23 09:05:48,744 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.XMLReporter@7e3d7dd: 18 ms 
+2022-03-23 09:05:48,758 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@180b3819: 12 ms 
+2022-03-23 09:05:48,769 INFO  [Utils] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@707ca986: 11 ms 
